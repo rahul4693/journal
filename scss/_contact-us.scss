@@ -1,0 +1,85 @@
+.contact-us-title{
+	.page-title{
+		border-top: 1px solid $color-light-shade-gray;
+		border-bottom: 1px solid $color-light-shade-gray;
+		h1{
+			font-size: 26px;
+		}
+	}
+}
+
+.company-information{
+	background-color: $color-white;
+	padding: 15px;
+	border-right: 1px solid $color-light-shade-gray;
+	.company-information-content{
+		background-color: $color-dark-grayish-blue;
+		border-bottom: 1px solid $color-fade-black;
+		.fa{
+			color: $color-primary;
+			font-size: 40px;
+			margin-right: 15px;
+		}
+		h1{
+			font-size: 18px;
+			color:  $color-white;;
+			font-weight: 600;
+		}
+		p{
+			margin-bottom: 0px;
+			font-size: 16px;
+			color: $color-fade-black;
+		}
+	}
+}
+
+.company-contact-form{
+	background-color: $color-white;
+	padding: 15px 15px 143px 15px;
+	h2{
+		font-size: 15px;
+		font-weight: 600;
+		color: $color-dark-grayish-blue;
+		position: relative;
+		&:before{
+			content: '';
+			width: 50px;
+			height: 1px;
+			background-color: $color-primary;
+			position: absolute;
+			top: 22px;
+			left: 0;
+		}
+	}
+	p{
+		display: inline-block;
+	}
+	.form-control{
+		width: 60%;
+		display: inline;
+		margin-left: 20px;
+	}
+	.form-select{
+		width: 60%;
+		display: inline;
+    	font-size: 14px;
+    	margin-left: 59px;
+    		&:focus{
+    			box-shadow: none;
+    		}
+	}
+	.form-control-textarea{
+		margin-left: 38px;
+	}
+	.dropdown-divider{
+		color: $color-light-shade-gray;
+	}
+	.btn-submit{
+		background-color: $color-dark-grayish-blue;
+		color: $color-white;
+		text-decoration: none;
+		padding: 9px 13px;
+		font-size: 13px;
+		/*width: 10%;*/
+	}
+}

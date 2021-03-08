@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <section class="header-topbar">
+        <div class="container ">
+            <div class="row pt-2 header-topbar-content">
+
+                <div class="col-md-4">
+                    <ul class="social-icon">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center ">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    FREE SHIPPING OVER $10
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="currency-change">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            $ US DOLLAR
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa fa-eur" aria-hidden="true"></i>
+                                    Euro
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa fa-gbp" aria-hidden="true"></i>
+                                    Pound
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                    US Dollar
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-header-top d-none">
+                        <div class="customer-account-login">
+                            <ul>
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">REGISTER</a></li>
+                            </ul>
+                        </div>
+                        <div class="currency-change">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                $ US DOLLAR
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="fa fa-eur" aria-hidden="true"></i>
+                                        Euro
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="fa fa-gbp" aria-hidden="true"></i>
+                                        Pound
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                        US Dollar
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header">
+        <div class="container pt-3 pb-3">
+            <div class="main-header d-flex align-items-center">
+                <div>
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="search-bar d-flex flex-fill ms-4">
+                    <div class="product-search-bar-dropdown ">
+                        All <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="product-search-bar  flex-grow-1">
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Search here...">
+                    </div>
+                    <div class="search-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div>
+                    <ul class="header-info">
+                        <li><a href="#"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ</a></li>
+                        <li><a href="#"><i class="fa fa-weixin" aria-hidden="true"></i> BLOG</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope-open" aria-hidden="true"></i> CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navigation-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 main-navigation-menu">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                            <i class="fa fa-list-ul" aria-hidden="true"></i>
+                            All Departments
+                            <span class="badge bg-secondary">Sales</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Specials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Dropdown123</a>
+                                </li>
+                                <!-- ********* Mega Menu drpodown ************* -->
+                                <li class="nav-item megamenu-dropdown dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Mega Menu
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="mega-menu-content">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <div class="mega-menu-banner">
+                                                        <div class="mega-menu-banner-content text-center">
+                                                            <h2>Custom Menus</h2>
+                                                            <p>Full width or custom width mega menu dropdowns with page
+                                                                builder support.</p>
+                                                            <a href="#" class="btn btn-primary">SHOP NOW</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="row mt-3">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Fashion</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Electronics</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Bags</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Beauty</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Footwear</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="megamenu-product-list">
+                                                                <h1>Food</h1>
+                                                                <ul>
+                                                                    <li><a href="#">Accesories</a></li>
+                                                                    <li><a href="#">Pant</a></li>
+                                                                    <li><a href="#">Dresses</a></li>
+                                                                    <li><a href="#">T-shirts</a></li>
+                                                                    <li><a href="#" class="mega-menu-view-more">View
+                                                                            More</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <!-- ********* Mega Menu drpodown ************* -->
+                                <!-- ********* Full width dropdown ************* -->
+                                <li class="nav-item full-width-dropdown full-width-dropdown-display dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Full Width
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="full-width-dropdown-content">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <div class="row py-3">
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>FASHION</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/fashion-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>ELECTRONICS</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/electronics-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>BAGS</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/bag-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>HEALTH & BEAUTY</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/beauty-nav.jpg" class="img-fluid">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row py-3">
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>FOOTWEAR</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/footwear-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>BABY & KIDS</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/kids-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>HOME</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/home-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="full-width-dropdown-product">
+                                                                <h1>FOOTWEAR</h1>
+                                                                <div
+                                                                    class="full-width-dropdown-product-list d-flex mt-3">
+                                                                    <div>
+                                                                        <img src="img/fwear-nav.jpg">
+                                                                    </div>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">Accesories</a></li>
+                                                                            <li><a href="#">Pant</a></li>
+                                                                            <li><a href="#">Dresses</a></li>
+                                                                            <li><a href="#">T-shirts</a></li>
+                                                                            <li><a href="#"
+                                                                                    class="mega-menu-view-more">View
+                                                                                    More</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="full-width-dropdown-banner border-start p-3">
+                                                        <img src="img/full-width-banner.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <!-- ********* Full width dropdown ************* -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Custom Menu</a>
+                                </li>
+                            </ul>
+                            <div class="navbar-right text-center">
+                                <ul>
+                                    <li><a href="account-login.html" class="d-flex flex-column"><i
+                                                class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                            Account</a></li>
+                                    <li class="product-wishlist"><a href="#" class="d-flex flex-column"><i
+                                                class="fa fa-heart-o" aria-hidden="true"></i>
+                                            Wishlist
+                                            <span class="badge bg-secondary">0</span>
+                                        </a>
+                                    </li>
+                                    <li class="product-compare"><a href="#" class="d-flex flex-column "><i
+                                                class="fa fa-exchange" aria-hidden="true"></i>
+                                            Compare
+                                            <span class="badge badge1 bg-secondary">0</span>
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <a class="cart-content" href="#">
+                                0 item(s)-$0.00 <i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </section>
+    <section class="account-login-title">
+        <div class="container">
+            <div class="row pt-2">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Account-login</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="page-title">
+                <h1 class="py-2">ACCOUNT LOGIN</h1>
+            </div>
+        </div>
+    </section>
+    <section class="customer-login">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-10">
+                    <div class="customer-login-signup">
+                        <div class="row g-0 pt-3 pe-3">
+                            <div class="col-md-6">
+                                <div class="new-customer p-3">
+                                    <h2>NEW CUSTOMER</h2>
+                                    <p class="pt-2">By creating an account you will be able to shop faster, be up to
+                                        date on an order's status, and keep track of the orders you have previously
+                                        made.</p>
+                                    <hr class="dropdown-divider">
+                                    <div class="sign-up-continue">
+                                        <a href="#" class="btn btn-primary">
+                                            CONTINUE
+                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="existing-customer p-3">
+                                    <h2>RETURNING CUSTOMER</h2>
+                                    <form>
+                                        <div class="d-flex align-items-center">
+                                            <p>E-Mail Address</p>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Your Email">
+                                        </div>
+                                        <div class="d-flex align-items-center mt-3 mb-2">
+                                            <p>Password</p>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Your Password">
+                                        </div>
+                                        <a href="#" class="forgot-password">Forgotten Password?</a>
+                                        <hr class="dropdown-divider">
+                                        <div class="sign-in-continue">
+                                            <a href="#" class="btn btn-primary">
+                                                LOGIN
+                                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="account-menu pt-3">
+                        <h2>ACCOUNT MENU</h2>
+                        <ul>
+                            <li><a href="#">MY ACCOUNT</a></li>
+                            <li><a href="#">ADDRESS BOOK</a></li>
+                            <li><a href="#">WISHLIST</a></li>
+                            <li><a href="#">ORDER LIST</a></li>
+                            <li><a href="#">DOWNLOADS</a></li>
+                            <li><a href="#">PAYMENTS</a></li>
+                            <li><a href="#">RETURNS</a></li>
+                            <li><a href="#">TRANSACTION</a></li>
+                            <li><a href="#">NEWSLETTER</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-top">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="footer-content">
+                        <h5>CUSTOM LINKS</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="footer-content">
+                        <h5>MY ACCOUNT</h5>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">NewsLetter</a></li>
+                            <li><a href="#">Gift Certificate</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="footer-content">
+                        <h5>CUSTOMER SERVICE</h5>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Unlimited Links</a></li>
+                            <li><a href="#">Order History</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="latest-news">
+                        <h5>LATEST NEWS</h5>
+                        <ul>
+                            <li class="d-flex">
+                                <div class="footer-image">
+                                    <img src="img/siderbar1.jpg">
+                                </div>
+                                <div class="news-content ps-2">
+                                    <p>Travelling to Greece</p>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> 26 July
+                                    <i class="fa fa-eye ps-2" aria-hidden="true"></i> 2655
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="footer-image">
+                                    <img src="img/sidebar2.jpg">
+                                </div>
+                                <div class="news-content ps-2">
+                                    <p>Best Leather Bag</p>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> 02 August
+                                    <i class="fa fa-eye ps-2" aria-hidden="true"></i> 1694
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="footer-image">
+                                    <img src="img/sidebar3.jpg">
+                                </div>
+                                <div class="news-content ps-2">
+                                    <p>High-end Headphones</p>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> 18 March
+                                    <i class="fa fa-eye ps-2" aria-hidden="true"></i> 3876
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-bottom">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-md-6 footer-left mt-3 ">
+                    <h5>FOLLOW US</h5>
+                    <ul class="pt-2">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <p>Copyright © 2019, Your Store, All Rights Reserved</p>
+                    <div class="payment-method">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                        <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                        <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-right mt-3">
+                        <h5>NEWSLETTER</h5>
+                        <p>Don't miss any updates or promotions by signing up to our newsletter.</p>
+                        <div class="input-email d-flex">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email">
+                            <a href="#" class="btn btn-primary">SEND</a>
+                        </div>
+                        <div class="checkbox mt-2">
+                            <label>
+                                <input type="checkbox" name="agree" value="1">
+                                I have read and agree to the <a
+                                    href="https://www.journal-theme.com/5/index.php?route=information/information/agree&amp;information_id=3"
+                                    class="agree"><b>Privacy Policy</b></a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+        </script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </section>
